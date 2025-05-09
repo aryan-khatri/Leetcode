@@ -1,0 +1,40 @@
+Mothers and Father's day Challenges day 
+Day 6 :
+Math based 
+https://lnkd.in/dVV_4f79
+solution-
+class Solution {
+    public int bulbSwitch(int n) {
+        return (int) Math.sqrt(n);
+    }
+}
+------------------------------------------------------------------------------------------
+DSA based 
+https://lnkd.in/d2Pc-7jy
+Solution - 
+class Solution {
+    public ListNode deleteMiddle(ListNode head) {
+   
+        if (head == null || head.next == null) {
+            return null;
+        }
+
+        ListNode slow = head;
+        ListNode fast = head;
+        ListNode prev = null;
+
+
+        while (fast != null && fast.next != null) {
+            prev = slow;
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+
+        prev.next = slow.next;
+
+        return head;
+    }
+}
+
+
+#java #50daysofcode #DrGvishwanathanChallenge #shriramsir
