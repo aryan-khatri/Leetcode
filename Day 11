@@ -1,0 +1,45 @@
+Mothers and Father's day Challenges day 
+Day 11 :
+Maths based problems
+https://lnkd.in/dgMJ7d2E
+Solution-
+class Solution {
+    public int trailingZeroes(int n) {
+        int ans = 0;
+        while (n > 0) {
+            n /= 5;
+            ans += n;
+        }
+        return ans;
+    }
+}
+
+---------------------------------------------------------------------------
+DSA based 
+https://lnkd.in/dr5N4Ydb
+Solution - 
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode() {}
+ *     ListNode(int val) { this.val = val; }
+ *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+ * }
+ */
+class Solution {
+    public ListNode removeNthFromEnd(ListNode head, int n) {
+        ListNode dummy = new ListNode(0, head);
+        ListNode fast = dummy, slow = dummy;
+        while (n-- > 0) {
+            fast = fast.next;
+        }
+        while (fast.next != null) {
+            slow = slow.next;
+            fast = fast.next;
+        }
+        slow.next = slow.next.next;
+        return dummy.next;
+    }
+}
