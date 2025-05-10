@@ -1,20 +1,20 @@
 # Leetcode
 LEETCODE PROBLEMS
 
-# 👨‍👩‍👧‍👦 Mothers and Father's Day Challenges – 50 Days of Code
+#  Mothers and Father's Day Challenges – 50 Days of Code
 
 Welcome to the **Mothers and Father's Day Challenge** – a 50-day coding journey initiated as part of the **Dr. G. Viswanathan Challenge** by **#ShriramSir**.
 
 This challenge includes a mix of:
-- 🧮 **Maths-Based Problems**
-- 💻 **DSA (Data Structures and Algorithms) Problems**
+-  **Maths-Based Problems**
+-  **DSA (Data Structures and Algorithms) Problems**
 
 All problems are solved in **Java**.
 
 ---
 
 
-## 📅 Challenge Progress
+##  Challenge Progress
 
 | Day | Maths-Based Problem                                                                 | DSA-Based Problem                                                                   |
 |-----|--------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
@@ -31,7 +31,6 @@ All problems are solved in **Java**.
 | 11  | [Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/)| [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) |
 
 
-> ✅ Use the table above to track your progress and add links as you complete each day's challenges.
 
 ---
 
