@@ -30,6 +30,8 @@ All problems are solved in **Java**.
 | 10  | [Bulb Switcher](https://leetcode.com/problems/bulb-switcher/)                       | [Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/) |
 | 11  | [Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/)| [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) |
 | 12  | [Count Odd Numbers in an Interval Range](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/) | [Insert Greatest Common Divisors in Linked List](https://leetcode.com/problems/insert-greatest-common-divisors-in-linked-list/) |
+| 13  | [Sign of the Product of an Array](https://leetcode.com/problems/sign-of-the-product-of-an-array/)      | [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/) |
+| 14  | [Reverse Integer](https://leetcode.com/problems/reverse-integer/)                                       | [Partition List](https://leetcode.com/problems/partition-list/)|
 
 
 
