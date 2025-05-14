@@ -1,7 +1,12 @@
-Day 1 to 6 Leetcode
-Day 1 :
-Topic: Linked List- reverse-linked-list 
-Topic 1- Code
+# Day 1 to 6 Leetcode Challenges
+
+## Day 1
+
+### DSA Topic: Linked List – Reverse Linked List
+
+[Problem Link](https://leetcode.com/problems/reverse-linked-list/)
+
+```java
 class Solution {
     public ListNode reverseList(ListNode head) {
         ListNode dummy = new ListNode();
@@ -15,9 +20,13 @@ class Solution {
         return dummy.next;
     }
 }
+```
 
-Topic: Math based- missing-number
-Topic 2- Code
+### Maths Topic: Missing Number
+
+[Problem Link](https://leetcode.com/problems/missing-number/)
+
+```java
 class Solution {
     public int missingNumber(int[] nums) {
         int n = nums.length;
@@ -28,11 +37,17 @@ class Solution {
         return ans;
     }
 }
-------------------------------------------------------------------------------------------------------------------------
+```
 
-Day - 2
-Topic: Linked List- middle-of-the-linked-list
-Code-
+---
+
+## Day 2
+
+### DSA Topic: Linked List – Middle of the Linked List
+
+[Problem Link](https://leetcode.com/problems/middle-of-the-linked-list/)
+
+```java
 class Solution {
     public ListNode middleNode(ListNode head) {
         ListNode slow = head, fast = head;
@@ -43,26 +58,33 @@ class Solution {
         return slow;
     }
 }
-Topic: Math based- add-digits
-Code-
+```
+
+### Maths Topic: Add Digits
+
+[Problem Link](https://leetcode.com/problems/add-digits/)
+
+```java
 class Solution {
     public int addDigits(int num) {
         return (num - 1) % 9 + 1;
     }
 }
-------------------------------------------------------------------------------------------------------------------------
+```
 
-Day 3
- Linked List – Merge Two Sorted Lists
-Code-
+---
+
+## Day 3
+
+### DSA Topic: Linked List – Merge Two Sorted Lists
+
+[Problem Link](https://leetcode.com/problems/merge-two-sorted-lists/)
+
+```java
 class Solution {
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
-        if (list1 == null) {
-            return list2;
-        }
-        if (list2 == null) {
-            return list1;
-        }
+        if (list1 == null) return list2;
+        if (list2 == null) return list1;
         if (list1.val <= list2.val) {
             list1.next = mergeTwoLists(list1.next, list2);
             return list1;
@@ -72,14 +94,16 @@ class Solution {
         }
     }
 }
+```
 
-Math-Based – Perfect Number
-Code-
+### Maths Topic: Perfect Number
+
+[Problem Link](https://leetcode.com/problems/perfect-number/)
+
+```java
 class Solution {
     public boolean checkPerfectNumber(int num) {
-        if (num == 1) {
-            return false;
-        }
+        if (num == 1) return false;
         int s = 1;
         for (int i = 2; i <= num / i; ++i) {
             if (num % i == 0) {
@@ -92,11 +116,17 @@ class Solution {
         return s == num;
     }
 }
-------------------------------------------------------------------------------------------------------------------------
- 
-Day 4
- Linked List – linked-list-cycle
-Code-
+```
+
+---
+
+## Day 4
+
+### DSA Topic: Linked List – Linked List Cycle
+
+[Problem Link](https://leetcode.com/problems/linked-list-cycle/)
+
+```java
 public class Solution {
     public boolean hasCycle(ListNode head) {
         Set<ListNode> s = new HashSet<>();
@@ -108,14 +138,16 @@ public class Solution {
         return false;
     }
 }
+```
 
- Math-Based – palindrome-number
-Code-
+### Maths Topic: Palindrome Number
+
+[Problem Link](https://leetcode.com/problems/palindrome-number/)
+
+```java
 class Solution {
     public boolean isPalindrome(int x) {
-        if (x < 0 || (x > 0 && x % 10 == 0)) {
-            return false;
-        }
+        if (x < 0 || (x > 0 && x % 10 == 0)) return false;
         int y = 0;
         for (; y < x; x /= 10) {
             y = y * 10 + x % 10;
@@ -123,11 +155,17 @@ class Solution {
         return x == y || x == y / 10;
     }
 }
+```
 
-------------------------------------------------------------------------------------------------------------------------
- Day 5
- Linked List – Palindrome Linked List
-Code-
+---
+
+## Day 5
+
+### DSA Topic: Linked List – Palindrome Linked List
+
+[Problem Link](https://leetcode.com/problems/palindrome-linked-list/)
+
+```java
 class Solution {
     public boolean isPalindrome(ListNode head) {
         ListNode slow = head;
@@ -146,17 +184,20 @@ class Solution {
             cur = t;
         }
         while (pre != null) {
-            if (pre.val != head.val) {
-                return false;
-            }
+            if (pre.val != head.val) return false;
             pre = pre.next;
             head = head.next;
         }
         return true;
     }
 }
- Math-Based – Valid Perfect Square
-Code-
+```
+
+### Maths Topic: Valid Perfect Square
+
+[Problem Link](https://leetcode.com/problems/valid-perfect-square/)
+
+```java
 class Solution {
     public boolean isPerfectSquare(int num) {
         int l = 1, r = num;
@@ -171,28 +212,39 @@ class Solution {
         return l * l == num;
     }
 }
+```
 
-------------------------------------------------------------------------------------------------------------------------
-Day 6 :
-Topic: Linked List - Remove Linked List Elements - https://lnkd.in/djvyVbQF
-Code-
+---
+
+## Day 6
+
+### DSA Topic: Linked List – Remove Linked List Elements
+
+[Problem Link](https://leetcode.com/problems/remove-linked-list-elements/)
+
+```java
 class Solution {
-    public int numTilings(int n) {
-        long[] f = {1, 0, 0, 0};
-        int mod = (int) 1e9 + 7;
-        for (int i = 1; i <= n; ++i) {
-            long[] g = new long[4];
-            g[0] = (f[0] + f[1] + f[2] + f[3]) % mod;
-            g[1] = (f[2] + f[3]) % mod;
-            g[2] = (f[1] + f[3]) % mod;
-            g[3] = f[0];
-            f = g;
+    public ListNode removeElements(ListNode head, int val) {
+        ListNode dummy = new ListNode(0);
+        dummy.next = head;
+        ListNode current = dummy;
+        while (current.next != null) {
+            if (current.next.val == val) {
+                current.next = current.next.next;
+            } else {
+                current = current.next;
+            }
         }
-        return (int) f[0];
+        return dummy.next;
     }
 }
-Topic: Math based - Happy Number - https://lnkd.in/dj73aayS
-Code-
+```
+
+### Maths Topic: Happy Number
+
+[Problem Link](https://leetcode.com/problems/happy-number/)
+
+```java
 class Solution {
     public boolean isHappy(int n) {
         Set<Integer> vis = new HashSet<>();
@@ -208,3 +260,6 @@ class Solution {
         return n == 1;
     }
 }
+```
+
+---
