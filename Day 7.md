@@ -1,10 +1,15 @@
-Mothers and Father's day Challenges day 
+# Mother's and Father's Day Challenges  
 #java #50daysofcode #DrGvishwanathanChallenge #shriramsir
 
+---
 
-Day 7 :
-Topic: Linked List - Rotate List - https://lnkd.in/dj5q_rbB
-Code-
+### Day 7  
+
+#### Topic 1: Linked List - Rotate List  
+[Link to Problem](https://leetcode.com/problems/rotate-list/description/)  
+
+**Code:**
+```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -44,10 +49,12 @@ class Solution {
         return ans;
     }
 }
-------------------------------------------------------------------------------------------------------
+```
+#### Topic: Math-Based - Plus One  
+[Link to Problem](https://leetcode.com/problems/plus-one/description/)  
 
-Topic: Math based -  Plus One - https://lnkd.in/dEjZgRs2
-code-
+**Code:**
+```java
 class Solution {
     public int[] plusOne(int[] digits) {
         int n = digits.length;
