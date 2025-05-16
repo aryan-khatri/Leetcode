@@ -1,17 +1,24 @@
-Mothers and Father's day Challenges day 
---------------------------------------------------------------------------------------------------
-Maths based 
-https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/description/
-Solution-
+Mothers and Father's Day Challenges Day  
+Day 12 :
+
+ **Maths Based Problem**  
+ [Count Odd Numbers in an Interval Range](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/description/)
+
+ **DSA Based Problem**  
+ [Insert Greatest Common Divisors in Linked List](https://leetcode.com/problems/insert-greatest-common-divisors-in-linked-list/description/)
+
+```java
+// Maths Based Problem
 class Solution {
     public int countOdds(int low, int high) {
         return ((high + 1) >> 1) - (low >> 1);
     }
 }
---------------------------------------------------------------------------------------------------
-DSA
-https://leetcode.com/problems/insert-greatest-common-divisors-in-linked-list/description/
-Solution-
+```
+
+
+// DSA Based Problem
+```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -33,12 +40,8 @@ class Solution {
     }
 
     private int gcd(int a, int b) {
-        if (b == 0) {
-            return a;
-        }
+        if (b == 0) return a;
         return gcd(b, a % b);
     }
 }
-
-
-#java #50daysofcode #DrGvishwanathanChallenge #shriramsir
+```
