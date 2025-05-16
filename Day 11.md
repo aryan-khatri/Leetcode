@@ -1,7 +1,7 @@
-Mothers and Father's day Challenges day 
-Day 11 :
-Maths based problems
-https://lnkd.in/dgMJ7d2E
+Mothers and Father's day Challenges day <br>
+Day 11 : <br>
+[Maths based problems](https://leetcode.com/problems/factorial-trailing-zeroes/description/)
+```java
 Solution-
 class Solution {
     public int trailingZeroes(int n) {
@@ -13,11 +13,11 @@ class Solution {
         return ans;
     }
 }
+```
 
----------------------------------------------------------------------------
-DSA based 
-https://lnkd.in/dr5N4Ydb
-Solution - 
+
+[DSA based](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/)
+```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -43,3 +43,4 @@ class Solution {
         return dummy.next;
     }
 }
+```
