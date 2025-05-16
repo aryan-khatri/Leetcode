@@ -1,8 +1,15 @@
-Mothers and Father's day Challenges day 
+Mothers and Father's Day Challenges Day  
 Day 13 :
-Maths based
-https://leetcode.com/problems/sign-of-the-product-of-an-array/description/
-Solution -
+
+📐 **Maths Based Problem**  
+🔗 [Sign of the Product of an Array](https://leetcode.com/problems/sign-of-the-product-of-an-array/description/)
+
+🧠 **DSA Based Problem**  
+🔗 [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/description/)
+
+
+// Maths Based Problem
+```java
 class Solution {
     public int arraySign(int[] nums) {
         int ans = 1;
@@ -17,11 +24,9 @@ class Solution {
         return ans;
     }
 }
----------------------------------------------------------------------------------------------------------------
-
-DSA based 
-https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/description/
-Solution-
+```
+// DSA Based Problem
+```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -51,3 +56,4 @@ class Solution {
         return dummy.next;
     }
 }
+```
