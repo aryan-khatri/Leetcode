@@ -6,9 +6,6 @@
 
 ### Solution (Java)
 ```java
-import java.util.ArrayDeque;
-import java.util.Deque;
-
 class MinStack {
     private Deque<Integer> stk1 = new ArrayDeque<>();
     private Deque<Integer> stk2 = new ArrayDeque<>();
