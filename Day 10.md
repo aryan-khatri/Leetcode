@@ -4,7 +4,6 @@
 
 🔗 [Challenge Link](https://leetcode.com/problems/bulb-switcher/description/)
 
-### ✅ Solution (Java)
 ```java
 class Solution {
     public int bulbSwitch(int n) {
