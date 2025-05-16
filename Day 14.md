@@ -1,33 +1,33 @@
-Mothers and Father's day Challenges day 
-#java #50daysofcode #DrGvishwanathanChallenge #shriramsir
+Mothers and Father's Day Challenges Day  
 Day 14 :
 
-Maths based
-https://leetcode.com/problems/reverse-integer/description/
-Solution -
+📐 **Maths Based Problem**  
+🔗 [Reverse Integer](https://leetcode.com/problems/reverse-integer/description/)
+
+🧠 **DSA Based Problem**  
+🔗 [Partition List](https://leetcode.com/problems/partition-list/description/)
+
+```java
+// Maths Based Problem
 public class Solution {
-public int reverse(int x)
-{
-    int result = 0;
-
-    while (x != 0)
-    {
-        int tail = x % 10;
-        int newResult = result * 10 + tail;
-        if ((newResult - tail) / 10 != result)  // check if overflows!!!
-        { return 0; }
-        result = newResult;
-        x = x / 10;
+    public int reverse(int x) {
+        int result = 0;
+        while (x != 0) {
+            int tail = x % 10;
+            int newResult = result * 10 + tail;
+            if ((newResult - tail) / 10 != result) { // check for overflow
+                return 0;
+            }
+            result = newResult;
+            x = x / 10;
+        }
+        return result;
     }
-
-    return result;
 }
-}
----------------------------------------------------------------------------------------------
+```
 
-DSA based 
-https://leetcode.com/problems/partition-list/description/
-Solution -
+// DSA Based Problem
+```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -57,3 +57,4 @@ class Solution {
         return l.next;
     }
 }
+```
