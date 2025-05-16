@@ -1,20 +1,22 @@
-Mothers and Father's day Challenges day 
-Day 6 :
-Math based 
-https://lnkd.in/dVV_4f79
-solution-
+# Mother's and Father's Day Challenges – Day 6
+
+## Math-Based Challenge
+
+🔗 [Challenge Link](https://leetcode.com/problems/bulb-switcher/description/)
+
+### ✅ Solution (Java)
+```java
 class Solution {
     public int bulbSwitch(int n) {
         return (int) Math.sqrt(n);
     }
 }
-------------------------------------------------------------------------------------------
-DSA based 
-https://lnkd.in/d2Pc-7jy
-Solution - 
+```
+DSA-Based Challenge
+🔗 [Challenge Link](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/description/)
+```java
 class Solution {
     public ListNode deleteMiddle(ListNode head) {
-   
         if (head == null || head.next == null) {
             return null;
         }
@@ -22,7 +24,6 @@ class Solution {
         ListNode slow = head;
         ListNode fast = head;
         ListNode prev = null;
-
 
         while (fast != null && fast.next != null) {
             prev = slow;
@@ -35,6 +36,6 @@ class Solution {
         return head;
     }
 }
-
-
+```
+🔖 Hashtags
 #java #50daysofcode #DrGvishwanathanChallenge #shriramsir
