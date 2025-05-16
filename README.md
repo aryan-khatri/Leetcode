@@ -35,6 +35,14 @@ All problems are solved in **Java**.
 | 15  | [Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/description/) | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/)       |
 | 16  | [Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/description/) | [Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/description/) |
 
+##  Challenge Progress
+**A few modifications have been made — the problems are now categorized under DSA-based challenges according to their difficulty level.**
+
+| Day  | DSA-Based Problem                                                                 | DSA-Based EASY Problem                                                              | 
+|------|-----------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
+| 17   | [Min Stack](https://leetcode.com/problems/min-stack/description/)               | [Two Sum](https://leetcode.com/problems/two-sum/description/)                       |
+
+
 
 ---
 
