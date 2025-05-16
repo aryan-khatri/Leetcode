@@ -1,7 +1,12 @@
-Mothers and Father's day Challenges day 
+Mothers and Father's Day Challenges Day  
 Day 8 :
-Topic: Linked List - Odd Even Linked List - https://lnkd.in/gpMgj7eU
-Code - 
+
+ **DSA Topic:** Linked List – [Odd Even Linked List](https://lnkd.in/gpMgj7eU)
+
+ **Math Topic:** [Excel Sheet Column Number](https://lnkd.in/g2JKSqZK)
+
+```java
+// DSA - Odd Even Linked List
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -29,9 +34,9 @@ class Solution {
         return head;
     }
 }
-----------------------------------------------------------------------------------------------------------------
-Topic: Math based - Excel Sheet Column Number - https://lnkd.in/g2JKSqZK
-Code-
+```
+// Maths - Excel Sheet Column Number
+```java
 class Solution {
     public int titleToNumber(String columnTitle) {
         int ans = 0;
@@ -41,3 +46,4 @@ class Solution {
         return ans;
     }
 }
+```
