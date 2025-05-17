@@ -41,6 +41,7 @@ All problems are solved in **Java**.
 | Day  | DSA-Based Problem                                                                 | DSA-Based EASY Problem                                                              | 
 |------|-----------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
 | 17   | [Min Stack](https://leetcode.com/problems/min-stack/description/)               | [Two Sum](https://leetcode.com/problems/two-sum/description/)                       |
+| 18   |[Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/description/)|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/description/)|
 
 
 
