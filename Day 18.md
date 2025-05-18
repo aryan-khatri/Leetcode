@@ -1,8 +1,8 @@
-# Mother's and Father's Day Challenges – Day 16
+# Mother's and Father's Day Challenges – Day 18
 
 > **Tags**: #java #50daysofcode #DrGvishwanathanChallenge #shriramsir
 
-##  Day 16:
+##  Day 18:
 [DSA](https://leetcode.com/problems/implement-queue-using-stacks/description/) <br>
 Solution
 ```java
