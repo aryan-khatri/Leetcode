@@ -38,10 +38,11 @@ All problems are solved in **Java**.
 ##  Challenge Progress
 **A few modifications have been made — the problems are now categorized under DSA-based challenges according to their difficulty level.**
 
-| Day  | DSA-Based Problem                                                                 | DSA-Based EASY Problem                                                              | 
+| Day  | DSA-Based Problem                                                                 | DSA-Based Easy Problem                                                              | 
 |------|-----------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
 | 17   | [Min Stack](https://leetcode.com/problems/min-stack/description/)               | [Two Sum](https://leetcode.com/problems/two-sum/description/)                       |
 | 18   |[Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/description/)|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/description/)|
+| 19   |[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/submissions/1637017811/)|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/submissions/1637018472/)|
 
 
 
