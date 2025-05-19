@@ -43,6 +43,7 @@ All problems are solved in **Java**.
 | 17   | [Min Stack](https://leetcode.com/problems/min-stack/description/)               | [Two Sum](https://leetcode.com/problems/two-sum/description/)                       |
 | 18   |[Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/description/)|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/description/)|
 | 19   |[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/submissions/1637017811/)|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/submissions/1637018472/)|
+|20|[Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/description/)|[Find Greatest Common Divisor of Array](https://leetcode.com/problems/find-greatest-common-divisor-of-array/)|
 
 
 
