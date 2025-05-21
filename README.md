@@ -45,6 +45,7 @@ All problems are solved in **Java**.
 | 19   |[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/submissions/1637017811/)|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/submissions/1637018472/)|
 |20|[Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/description/)|[Find Greatest Common Divisor of Array](https://leetcode.com/problems/find-greatest-common-divisor-of-array/)|
 |21|[Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/description/)|[Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/)|
+|22|[Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/)|[Majority Element](https://leetcode.com/problems/majority-element/description/)|
 
 
 
