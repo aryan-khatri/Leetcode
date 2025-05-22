@@ -46,6 +46,7 @@ All problems are solved in **Java**.
 |20|[Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/description/)|[Find Greatest Common Divisor of Array](https://leetcode.com/problems/find-greatest-common-divisor-of-array/)|
 |21|[Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/description/)|[Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/)|
 |22|[Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/)|[Majority Element](https://leetcode.com/problems/majority-element/description/)|
+|23|[ Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/description/)|[Search Insert Position](https://leetcode.com/problems/search-insert-position/description/)|
 
 
 
