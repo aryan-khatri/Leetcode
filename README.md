@@ -47,7 +47,7 @@ All problems are solved in **Java**.
 |21|[Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/description/)|[Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/)|
 |22|[Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/)|[Majority Element](https://leetcode.com/problems/majority-element/description/)|
 |23|[ Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/description/)|[Search Insert Position](https://leetcode.com/problems/search-insert-position/description/)|
-|24|[Move Zeroes](https://leetcode.com/problems/move-zeroes/description/)|[Basic Calculator](https://leetcode.com/problems/basic-calculator/description/)|
+|24| [Basic Calculator](https://leetcode.com/problems/basic-calculator/description/)|[Move Zeroes](https://leetcode.com/problems/move-zeroes/description/)|
 
 
 
