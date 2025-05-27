@@ -51,6 +51,7 @@ All problems are solved in **Java**.
 |25|[Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/description/)|[Rotate Array](https://leetcode.com/problems/rotate-array/description/)|
 |26|[Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/)|[Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/description/)|
 |27|[]()|[]()|
+|28|[]()|[]()|
 
 
 
