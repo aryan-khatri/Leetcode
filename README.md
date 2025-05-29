@@ -80,6 +80,6 @@ Challenge curated and guided by **#ShriramSir** as part of the **Dr. G. Viswanat
 > “Consistency is more important than perfection. Keep coding every day!”
 
 > Number of visitor 
-<p align="center">
+<p align="center" >
   <img src="https://profile-counter.glitch.me/aryan-khatri/count.svg" />
 </p>
