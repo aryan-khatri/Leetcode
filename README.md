@@ -1,7 +1,7 @@
 # Leetcode
 >LEETCODE PROBLEMS
 
-#  Mothers and Father's Day Challenges – 50 Days of Code 
+#  Mothers and Father's Day Challenges – 25 Days of Code 
 
 >Welcome to the **Mothers and Father's Day Challenge** – a 50-day coding journey initiated as part of the **Dr. G. Viswanathan Challenge** by **#ShriramSir**.
 
@@ -49,9 +49,7 @@ All problems are solved in **Java**.
 |23|[ Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/description/)|[Search Insert Position](https://leetcode.com/problems/search-insert-position/description/)|
 |24| [Basic Calculator](https://leetcode.com/problems/basic-calculator/description/)|[Move Zeroes](https://leetcode.com/problems/move-zeroes/description/)|
 |25|[Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/description/)|[Rotate Array](https://leetcode.com/problems/rotate-array/description/)|
-|26|[Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/)|[Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/description/)|
-|27|[]()|[]()|
-|28|[]()|[]()|
+
 
 
 
